@@ -1,0 +1,14 @@
+Q:How can you use the staging area to make sure you have one commit per logical change?
+- items in staging area should only belong to one commit and other files should not be inside the staging area if they do not belong to same logical commit.
+
+Q:What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- branches help to create a different version of the software without actually overriding the current status. when you are making experimental approach, creating new features or bug fix, this does not cause malfunction to you master branch in all time.
+
+Q:How do the diagrams help you visualize the branch structure?
+- you will be able to know at which point does a new branch created. Also whether there is any unreachable commit.
+
+Q:What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- one branch will join the other branch as one. The result will be the functions will no longer be standalone, but takes effect on the program as it is now part of the program. We represent it in the diagram, so that branches presents themselves clearly to us.
+
+Q:What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- It is more convenient.
