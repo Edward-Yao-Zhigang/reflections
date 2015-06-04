@@ -1,0 +1,27 @@
+Q:How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- Diff helps to display the difference of text between two files and represents
+in orders. One difference of a file shows above of the other file.
+
+Q:How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+- I would be able to know who and when made the changes. In any point of time,
+if I would like to recover to the older version of the program, I could do it using this feature of a version control system. Every development process is recorded and retrievable.
+
+Q:What do you think are the pros and cons of manually choosing when to create a
+ commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+- Manually commits are generally subjective, in other words, each programmer has their own judgement when to make a commit.In terms of automatically save, it saves data periodically. It does not miss any important commit, but the problems could arise when it saved in an useless point to does not reflect any purpose or too much commits have been created and this used up too much space.
+
+Q:Why do you think some version control systems, like Git, allow saving multiple
+  files in one commit, while others, like Google Docs, treat each file separately?
+- Files such as a coding file or chapters of a book are interrelated to each other. In other words, a system requires all files in order to work properly. Just like chapters, a book would not make sense to create a story without all the chapters in it. Git allows saving multiple files in one commit to reflect the change to the system by changes made by one or more files as these files affect the whole system.
+
+Q:How can you use the commands git log and git diff to view the history of files?
+- git log will display all the previous history with an unique ID. By using coping one ID and the previous ID of this one, then paste to git diff. You could see the previous lines of additions and deletions made with indication of plus and minus sign.
+Q:How might using version control make you more confident to make changes that could break something?
+- if you make a mistake that could have caused malfunction, you could also find out the errors using features of a version control system and fixed the bug. VCS provides a way of tracking your development process and refer it back if necessary.
+
+Q: What happens when you initialize a repository? Why do you need to do it?
+- When you initialise a repository, you will create a .git file.
+
+Q:How is the staging area different from the working directory and the repository? What value do you think it offers?
+-staging area is a place to store all the to-be-commited files. Sometimes, a few files with the same logic that belong to a commit will be later committed to repository together in one commit. staging area acts like a place to prepare files to be committed. It allows programmer to have a clear mind when to set up a commit. If there is no staging area, programmers will send all files to repository and then manage their commits there all together. This way is messier. 
